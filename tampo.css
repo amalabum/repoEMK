@@ -1,0 +1,88 @@
+#footer{
+	height:90px;
+	width:100%;
+	background:#2f7fff;
+	position:relative;
+
+}
+#menu,#titre,#boutons{
+	height:100%;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    background:inherit;
+    color:#f9f9f9;
+}
+#menu ul a li{
+    list-style-type:none;
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 22px;
+    /*background:blue;*/
+    font-size:18px;
+    color:#d9d9d9;
+    transition:all 3s;
+
+}
+#menu ul a:hover li{ 
+    border-bottom:1px solid #af0000;
+}
+#menu ul a:active{ 
+    border-bottom:1px solid #af0000;
+}
+#titre{
+ font-weight:bold;
+ font-size:30px;
+}
+#boutttons{
+	margin-top:20px;
+    margin-bottom:20px;
+
+}
+#navBar{
+	display:none;
+}
+#SubContent{
+	background:none;
+	margin-top:10px;
+
+}
+#SubAnex{
+ 
+  background:inherit;
+/*  height:300px;*/
+  width:90%;
+  position:relative;
+  margin:auto;
+  text-align:left;
+  padding:7% 7%;
+}
+#subCont-article{
+	  background:#f9f9f9;
+/*  height:300px;*/
+  width:100%;
+  position:relative;
+  margin-top:50px;
+  margin:auto;
+  text-align:left;
+  padding:6% 6%;
+}
+#anex{
+	 padding-bottom:15px;
+}
+#butnn{
+	margin-left: 7px;
+}
+#ic{
+	color:red;
+}
+#all{
+ position:absolute;
+ height:130px;
+left:0;
+right:0;
+ background:#f9f9f9;
+}
+#label{
+   
+}
